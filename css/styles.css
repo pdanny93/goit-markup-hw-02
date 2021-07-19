@@ -1,3 +1,41 @@
+/* основной цвет #212121 */
+/* вторичный цвет #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* черный в лого #000000 */
+/* цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* фон футера и героя #2F303A */
 body {
-  background-color: white;
+  background-color: #e5e5e5;
+}
+
+/* Шапка страницы */
+.page-header {
+  background-color: #ffffff;
+}
+/* Навигация сайта */
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.site-nav .link.current {
+  color: #2196f3;
+}
+/* Контакты */
+.contact-link {
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/* Кнопки */
+.button {
+  background-color: #2196f3;
+  color: #ffffff;
 }
