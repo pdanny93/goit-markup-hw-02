@@ -8,13 +8,17 @@
 /* фон футера и героя #2F303A */
 body {
   background-color: #e5e5e5;
-}
+
+  font-family: Roboto, sans-serif;
 
 /* Шапка страницы */
 .page-header {
   background-color: #ffffff;
 }
 /* Навигация сайта */
+.logo {
+font-family: Raleway, sans-serif;
+}
 .site-nav .link {
   color: #212121;
 }
